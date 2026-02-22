@@ -1,0 +1,11 @@
+import pandas as pd
+
+# Creating a simple DataFrame
+data = {
+    'Product': ['Laptop', 'Mouse', 'Monitor'],
+    'Price': [50000, 1000, 8000],
+    'Quantity': [5, 20, 10]
+}
+df = pd.DataFrame(data)
+
+print(df)
